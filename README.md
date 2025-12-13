@@ -15,38 +15,87 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
-
-<h2>Post-Install Configuration Objectives</h2>
-
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Windows 10</b> (22H2)
 
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1244" height="517" alt="1" src="https://github.com/user-attachments/assets/9fc6b581-0626-4bff-97ba-b4605acdc72b" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that OsTicket has been installed, we can proceed with our post-installation setup and configuration. First, we will log in as Admin and assign roles across various departments/ teams, managing each user's access respectively.
+
+-  To Log in as Admin/ Agent: http://localhost/osTicket/scp/login.php
+-  To Log in as an End User: http://localhost/osTicket
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="956" height="216" alt="2" src="https://github.com/user-attachments/assets/6f0b0b58-c8e8-4ba8-81e9-92b441d82f80" />
+<img width="951" height="708" alt="3" src="https://github.com/user-attachments/assets/02ef776c-fbf8-4f0a-b3bc-087fba66f382" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+click on "Admin Panel" on the top right after logging in as the Admin. This will allow us to configure and assign user permissions and roles as the Admin, whereas the Agent will be the Helpdesk worker. We will proceed by setting up a "Supreme Admin" role on our help desk. First we will navigate to the Agent tab -> Roles -> Click on "Add New Role". Here we will name the role "Supreme Admin" and grant all permissions in the Permissions Tab located next to the "Definition Tab".
 </p>
 <br />
 
+<img width="964" height="1108" alt="image" src="https://github.com/user-attachments/assets/e9aff945-2f67-44a6-8f72-4e7ea1f9525c" />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Next we will configure departments in our Helpdesk. This is significant for providing various levels of access for departments, i.e SysAdmin ticket visibility or department specific inquiries (Dependant upon company structure and delegation of responsibilities). First, we will click on the "Departments" tab under Agent -> Add New Department -> Name Department and configure department settings/ access based on your preferences. Then we will create the department.
 </p>
+<br />
+
+<img width="977" height="675" alt="5" src="https://github.com/user-attachments/assets/9e83495f-f822-4e3e-833e-e51ea04c19d3" />
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now we will create a new Team, under the Agents tab we will click on Teams -> "Add new Teams" -> Then we will create the Team. Here we may create teams dependant upon a specific task or responsibility, i.e Online Banking Team or Maintenance Team.
+</p>
+<br />
+<img width="965" height="685" alt="7" src="https://github.com/user-attachments/assets/b9fcfd60-a3c0-42b6-a0c5-ff6ebe47d349" />
+
+<p>
+Now that we've created our relevant teams, we can proceed with the ticket creation process and configure access settings to allow any User to create a ticket without registration, on our Helpdesk server. To do this, we will click on Settings tab within the Admin Panel -> Click on Users -> Uncheck where it says "Require registration and login to create tickets".
+</p>
+<br />
+
+<img width="964" height="956" alt="8" src="https://github.com/user-attachments/assets/beec8fdb-9fa9-4ea2-9cb8-cd6f52bc5e35" />
+
+<p>
+Next we will configure agents in our Helpdesk. click on Agents within the Admin Panel still -> Click on Agent (next to Teams)  -> Click Add New Agent. Here we can add the Agent's contact information, set up their username or password, and lock/ unlock their account.
+</p>
+<br />
+
+<img width="964" height="1108" alt="image" src="https://github.com/user-attachments/assets/e9aff945-2f67-44a6-8f72-4e7ea1f9525c" />
+<p>
+Next we will configure agents in our Helpdesk. click on Agents within the Admin Panel still -> Click on Agent (next to Teams)  -> Click Add New Agent. Here we can add the Agent's contact information, set up their username or password, assign a department or permissions, add them to a team, and lock/ unlock their account.
+</p>
+<br />
+
+<img width="964" height="1108" alt="image" src="https://github.com/user-attachments/assets/e9aff945-2f67-44a6-8f72-4e7ea1f9525c" />
+<p>
+Next we will configure end-users on our Helpdesk. 
+</p>
+<br />
+
+<img width="964" height="1108" alt="image" src="https://github.com/user-attachments/assets/e9aff945-2f67-44a6-8f72-4e7ea1f9525c" />
+<p>
+Next we will configure departments in our Helpdesk. This is significant for providing various levels of access for users, depending on the department they are assigned, i.e SysAdmin ticket visibility or Bank Group (Dependant upon company structure and SLA responsibility). First, we will click on the "Departments" tab under Agent -> Add New Department -> Name Department and configure department settings/ access based on your preferences. Then we will create the department.
+</p>
+<br />
+
+<img width="964" height="1108" alt="image" src="https://github.com/user-attachments/assets/e9aff945-2f67-44a6-8f72-4e7ea1f9525c" />
+<p>
+Next we will configure departments in our Helpdesk. This is significant for providing various levels of access for users, depending on the department they are assigned, i.e SysAdmin ticket visibility or Bank Group (Dependant upon company structure and SLA responsibility). First, we will click on the "Departments" tab under Agent -> Add New Department -> Name Department and configure department settings/ access based on your preferences. Then we will create the department.
+</p>
+<br />
+
+<img width="964" height="1108" alt="image" src="https://github.com/user-attachments/assets/e9aff945-2f67-44a6-8f72-4e7ea1f9525c" />
+<p>
+Next we will configure departments in our Helpdesk. This is significant for providing various levels of access for users, depending on the department they are assigned, i.e SysAdmin ticket visibility or Bank Group (Dependant upon company structure and SLA responsibility). First, we will click on the "Departments" tab under Agent -> Add New Department -> Name Department and configure department settings/ access based on your preferences. Then we will create the department.
+</p>
+<br />
+
+<img width="964" height="1108" alt="image" src="https://github.com/user-attachments/assets/e9aff945-2f67-44a6-8f72-4e7ea1f9525c" />
+<p>
+Next we will configure departments in our Helpdesk. This is significant for providing various levels of access for users, depending on the department they are assigned, i.e SysAdmin ticket visibility or Bank Group (Dependant upon company structure and SLA responsibility). First, we will click on the "Departments" tab under Agent -> Add New Department -> Name Department and configure department settings/ access based on your preferences. Then we will create the department.
 </p>
 <br />
