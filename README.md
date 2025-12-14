@@ -70,31 +70,33 @@ Next we will configure agents in our Helpdesk. click on Agents within the Admin 
 </p>
 <br />
 
-<img width="964" height="1108" alt="image" src="https://github.com/user-attachments/assets/e9aff945-2f67-44a6-8f72-4e7ea1f9525c" />
+<img width="963" height="234" alt="9" src="https://github.com/user-attachments/assets/a46d8418-c44a-4fa4-ac2b-18587a617583" />
+
 <p>
-Next we will configure end-users on our Helpdesk. 
+Next we will configure end-users on our Helpdesk. This will allow us to create end-users (Customers) who will be able to utilize our Helpdesk platform. Click on Users (under the Agent Panel) -> Click on "Add Users" -> Enter User credentials.
 </p>
 <br />
 
-<img width="964" height="1108" alt="image" src="https://github.com/user-attachments/assets/e9aff945-2f67-44a6-8f72-4e7ea1f9525c" />
+<img width="962" height="384" alt="10" src="https://github.com/user-attachments/assets/730d7f8d-40b4-4bfe-ab32-4f89fd7407ee" />
+
 <p>
-Next we will configure departments in our Helpdesk. This is significant for providing various levels of access for users, depending on the department they are assigned, i.e SysAdmin ticket visibility or Bank Group (Dependant upon company structure and SLA responsibility). First, we will click on the "Departments" tab under Agent -> Add New Department -> Name Department and configure department settings/ access based on your preferences. Then we will create the department.
+Now we will congifure SLAs. Setting the appropriate SLA based on ticket severity is extremely important in the delegation of tasks within a Helpdesk platform like OsTicket. To get started, first we will go back to the Admin Panel -> Click on the Manage Tab -> Click on SLA ->  "Add New SLA Plan".
 </p>
 <br />
 
-<img width="964" height="1108" alt="image" src="https://github.com/user-attachments/assets/e9aff945-2f67-44a6-8f72-4e7ea1f9525c" />
+<img width="959" height="666" alt="11" src="https://github.com/user-attachments/assets/27a8b2ef-1a69-4cb3-8607-310674feee56" />
+
 <p>
-Next we will configure departments in our Helpdesk. This is significant for providing various levels of access for users, depending on the department they are assigned, i.e SysAdmin ticket visibility or Bank Group (Dependant upon company structure and SLA responsibility). First, we will click on the "Departments" tab under Agent -> Add New Department -> Name Department and configure department settings/ access based on your preferences. Then we will create the department.
+Here we can set various Service Level Agreements (SLA) dependant upon the ticket's severity and priority level. In the above, Sev-A would be considered a top-priority ticket. Ex: CEO's laptop has been hacked or the sales team is unable to access their laptops. We can set a grace period of how many hours we would expect to be needed for the ticket to be resolved. We can also set the schedule for this type of SLA, having it run on a 24/7 schedule, 24/5 schedule, or an 8-5pm Business hours including business holidays schedule.
+</p>
+<br />
+<img width="958" height="632" alt="12" src="https://github.com/user-attachments/assets/13496848-2f27-4b1d-8dab-aaa5f2a7de29" />
+
+<p>
+Lastly, we can incorporate "Help Topics" onto our ticketing platform. To do this. We will click on "Manage" (in the Admin Panel) -> click on "Help Topics" -> then click on "Add New Help Topic". Here we can create help topics such as Internet Connectivity Issues, Password Outages, or General Inquiry topics for users to reference. You can also set a "Parent Topic" for the Help Topic being created. That being said, this concludes the OsTicket post-installation configuration guide.
 </p>
 <br />
 
-<img width="964" height="1108" alt="image" src="https://github.com/user-attachments/assets/e9aff945-2f67-44a6-8f72-4e7ea1f9525c" />
-<p>
-Next we will configure departments in our Helpdesk. This is significant for providing various levels of access for users, depending on the department they are assigned, i.e SysAdmin ticket visibility or Bank Group (Dependant upon company structure and SLA responsibility). First, we will click on the "Departments" tab under Agent -> Add New Department -> Name Department and configure department settings/ access based on your preferences. Then we will create the department.
-</p>
-<br />
-
-<img width="964" height="1108" alt="image" src="https://github.com/user-attachments/assets/e9aff945-2f67-44a6-8f72-4e7ea1f9525c" />
 <p>
 Next we will configure departments in our Helpdesk. This is significant for providing various levels of access for users, depending on the department they are assigned, i.e SysAdmin ticket visibility or Bank Group (Dependant upon company structure and SLA responsibility). First, we will click on the "Departments" tab under Agent -> Add New Department -> Name Department and configure department settings/ access based on your preferences. Then we will create the department.
 </p>
