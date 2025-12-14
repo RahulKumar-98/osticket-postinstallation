@@ -97,7 +97,3 @@ Lastly, we can incorporate "Help Topics" onto our ticketing platform. To do this
 </p>
 <br />
 
-<p>
-Next we will configure departments in our Helpdesk. This is significant for providing various levels of access for users, depending on the department they are assigned, i.e SysAdmin ticket visibility or Bank Group (Dependant upon company structure and SLA responsibility). First, we will click on the "Departments" tab under Agent -> Add New Department -> Name Department and configure department settings/ access based on your preferences. Then we will create the department.
-</p>
-<br />
